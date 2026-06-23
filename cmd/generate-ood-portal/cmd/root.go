@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/charmed-hpc/ood-portal-generator/internal/generate"
+	"github.com/canonical/ood-portal-generator/internal/generate"
 )
 
 var logger = log.New(os.Stderr, "generate-ood-portal: ", 0)

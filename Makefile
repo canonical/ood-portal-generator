@@ -32,7 +32,7 @@ build: $(BUILD_TARGETS)
 ## build: build target CLI applications under $PWD/_bin
 
 .PHONY: generate-ood-portal
-generate-ood-portal: PACKAGE = github.com/charmed-hpc/ood-portal-generator/cmd/generate-ood-portal
+generate-ood-portal: PACKAGE = github.com/canonical/ood-portal-generator/cmd/generate-ood-portal
 generate-ood-portal:
 	$(go_build)
 

@@ -1,4 +1,4 @@
-module github.com/charmed-hpc/ood-portal-generator
+module github.com/canonical/ood-portal-generator
 
 go 1.22.1
 

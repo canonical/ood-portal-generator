@@ -15,7 +15,7 @@
 
 package main
 
-import "github.com/charmed-hpc/ood-portal-generator/cmd/generate-ood-portal/cmd"
+import "github.com/canonical/ood-portal-generator/cmd/generate-ood-portal/cmd"
 
 func main() {
 	cmd.Execute()
